@@ -38,6 +38,13 @@ end
 --render del player
 function Player:draw()
 
+    --cambio de color si esta colisionando
+    if self.colliding then
+        love.graphics.setColor(1, 0, 0)
+    else
+        love.graphics.setColor(1, 1, 1)
+    end
+
     love.graphics.rectangle(
         "fill",
         self.x,
@@ -46,6 +53,7 @@ function Player:draw()
         self.height
     )
 
+    love.graphics.setColor(1, 1, 1)
 end
 
 return Player
