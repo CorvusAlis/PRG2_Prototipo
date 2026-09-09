@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "default",
+      "project": "C:\\Program Files\\LOVE\\love.exe",
+      "name": "LÖVE - TestLoveLua",
+      "args": [
+        "${workspaceRoot}"
+      ],
+      "currentDir": "${workspaceRoot}"
+    }
+  ]
+}
