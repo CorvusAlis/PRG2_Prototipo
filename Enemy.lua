@@ -28,10 +28,18 @@ function Enemy:update(dt)
     local dx = self.target.x - self.x
     local dy = self.target.y - self.y
 
-    --normalizacion del vector
+    --normalizacion de vector
     local distance = math.sqrt(dx * dx + dy * dy)
 
-    if distance > 0 then
+    if distance < 2 then
+        --cambios de direccion
+        if self.target == self.pointA then
+            self.target = self.pointB
+        else
+            self.target = self.pointA
+        end
+
+    else
 
         local directionX = dx / distance
         local directionY = dy / distance
@@ -45,7 +53,7 @@ end
 
 function Enemy:draw()
 
-    love.graphics.setColor(1, 0, 0)
+    love.graphics.setColor(1, 0, 0) --rojo
 
     love.graphics.rectangle(
         "fill",
@@ -58,3 +66,5 @@ function Enemy:draw()
     love.graphics.setColor(1, 1, 1)
 
 end
+
+return Enemy
