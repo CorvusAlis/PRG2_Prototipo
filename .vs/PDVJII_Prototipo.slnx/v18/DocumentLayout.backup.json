@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\barba\\OneDrive\\Escritorio\\PDVJII_Prototipo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\barba\\OneDrive\\Escritorio\\PDVJII_Prototipo\\Player.lua||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Player.lua||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\barba\\OneDrive\\Escritorio\\PDVJII_Prototipo\\main.lua||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:main.lua||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\barba\\OneDrive\\Escritorio\\PDVJII_Prototipo\\Player.lua||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Player.lua||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\barba\\OneDrive\\Escritorio\\PDVJII_Prototipo\\Collision.lua||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -26,17 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "main.lua",
               "DocumentMoniker": "C:\\Users\\barba\\OneDrive\\Escritorio\\PDVJII_Prototipo\\main.lua",
               "RelativeDocumentMoniker": "main.lua",
               "ToolTip": "C:\\Users\\barba\\OneDrive\\Escritorio\\PDVJII_Prototipo\\main.lua",
               "RelativeToolTip": "main.lua",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-09-09T15:36:42.782Z",
               "IsPinned": true,
@@ -52,18 +52,17 @@
               "RelativeToolTip": "Collision.lua",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-09-09T17:43:46.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-09T17:43:46.512Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Player.lua",
               "DocumentMoniker": "C:\\Users\\barba\\OneDrive\\Escritorio\\PDVJII_Prototipo\\Player.lua",
               "RelativeDocumentMoniker": "Player.lua",
               "ToolTip": "C:\\Users\\barba\\OneDrive\\Escritorio\\PDVJII_Prototipo\\Player.lua",
               "RelativeToolTip": "Player.lua",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAACgAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAADEAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-09-09T16:55:24.073Z",
               "EditorCaption": ""
@@ -78,8 +77,7 @@
               "RelativeToolTip": "Goal.lua",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-09-09T16:51:16.076Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-09T16:51:16.076Z"
             }
           ]
         }
