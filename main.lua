@@ -57,12 +57,14 @@ function love.draw()
     --DIBUJO PANTALLA DE MENU
     if gameState == GameState.MENU then
 
-        love.graphics.print("PROTOTIPO - FASE 1", 300, 100)
-        love.graphics.print("Presiona ENTER para comenzar", 250, 200)
+    drawCenteredText("PROTOTIPO - FASE 1", 100)
+    drawCenteredText("OBJETIVO", 200)
+    drawCenteredText("Llegar a la META verde - Esquivar los ENEMIGOS rojos", 230)
 
-        love.graphics.print("CONTROLES", 300, 280)
-        love.graphics.print("WASD - Moverse", 300, 320)
-        love.graphics.print("R - Reiniciar", 300, 350)
+    drawCenteredText("CONTROLES", 300)
+    drawCenteredText("Presiona ENTER para comenzar", 340)
+    drawCenteredText("WASD para moverse", 360)
+    drawCenteredText("R para reiniciar", 380)
 
     --DIBUJO PANTALLA DE JUEGO
     elseif gameState == GameState.PLAYING then
@@ -77,14 +79,14 @@ function love.draw()
      --DIBUJO PANTALLA DE DERROTA
     elseif gameState == GameState.DEFEAT then
 
-        love.graphics.print("DERROTA", 300, 200)
-        love.graphics.print("Presiona R para reiniciar", 250, 250)
+        drawCenteredText("DERROTA", 200)
+        drawCenteredText("Presiona R para reiniciar", 250)
 
     -- DIBUJO PANTALLA DE VICTORIA
     elseif gameState == GameState.VICTORY then
 
-        love.graphics.print("VICTORIA", 300, 200)
-        love.graphics.print("Presiona R para jugar nuevamente", 220, 250)
+        drawCenteredText("VICTORIA", 200)
+        drawCenteredText("Presiona R para jugar de nuevo", 250)
 
     end
 
@@ -150,5 +152,15 @@ function love.keypressed(key)
         end
 
     end
+
+end
+
+--para renderizar el texto centrado en pantalla
+function drawCenteredText(text, y)
+
+    local font = love.graphics.getFont()
+    local x = (love.graphics.getWidth() - font:getWidth(text)) / 2
+
+    love.graphics.print(text, x, y)
 
 end
